@@ -1,2 +1,0 @@
-# swipbox
-SwipBOX eksamen MOIN
