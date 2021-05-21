@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Styleguide SwipBox Infinity App</title>
+</head>
+<body>
+    <header>
+        <h1> Styleguide SwipBox Infinity App </h1>
+
+        <section class="navbarsection">
+            <nav class="navbar">
+                <section class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                    
+                </section>
+    
+                <ul class="nav-list"> 
+
+                     <li class="nav-item">
+                        <a href="#logo" class="nav-link">Logo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#colors" class="nav-link">Colors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#illustrations" class="nav-link">Illustrations</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="#buttons" class="nav-link">Buttons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#popups" class="nav-link">Pop-Ups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fonts" class="nav-link">Fonts</a>
+                    </li>
+                </ul>
+    
+            </nav>
+        </section>
+
+        <nav class="menu">
+            <ul class="menu__list"> 
+                <li class="menu__item">
+                    <a href="#Logo" class="menu__link">Logo</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#colors" class="menu__link">Colors</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#Illustrations" class="menu__link">Illustrations</a>
+                </li>
+               
+                <li class="menu__item">
+                    <a href="#buttons" class="menu__link">Buttons</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#popups" class="menu__link">Pop-Ups</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#fonts" class="menu__link">Fonts</a>
+                </li>
+            </ul>
+        
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="Logo" >
+            <h2> <hr> Logo</h2>
+            <img class="logoimg" src="img/swipbox-logo.png" alt="Logo in orange and blue with the text swipbox">
+        </section>
+
+
+        <section id="Colors">
+        <h2> <hr> Colors</h2>
+        <ul class="list ulcolors">
+            <li> 
+                <h3>SwipBox blue</h3>
+                <p class="color__blue preview">
+                      #11B8D7
+                </p>
+                
+            </li>
+
+            <li> 
+                <h3>SwipBox Orange</h3>
+                <p class="color__orange preview">
+                 <br> #EA5B0C
+                </p>
+            </li>
+           <li> 
+                <h3>SwipBox dark blue</h3>
+                <p class="color__darkblue preview">
+                     #16273D
+            </p>
+            </li>
+
+
+        </ul>
+
+        <h2> <hr> Secondary shades</h2>
+        <ul class="list ulcolors">
+            <li> 
+                <h3>Orange shades</h3>
+                <p class="color__orangeshade1 preview">
+                    #F47932
+                </p>
+                
+            </li>
+
+            <li> 
+                <p class="color__orangeshade2 preview">
+                    #F89E5D
+                </p>
+            </li>
+           <li> 
+                <p class="color__orangeshade3 preview">
+                    #FDC689
+                    
+            </p>
+            </li>
+
+
+        </ul>
+        </section>
+
+        <section id="Illustrations">
+        <h2> <hr> Illustrations</h2>
+        <ul class="list ulbackground">
+            <li> 
+                 <h3>SwipBox City-Illustration</h3>
+                 <p class="city illustration">
+                 </p>
+             </li>
+         </ul>
+        </section>
+
+
+        <section id="buttons">
+        <h2> <hr> Buttons</h2>
+        <ul class="list buttons">
+            <li> 
+                <h3>Main-Button</h3>
+                <p class="mainbutton preview">
+                      videre
+                </p>
+                
+            </li>
+         </ul>
+        </section>
+
+        
+        <section id="popups" >
+        <h2> <hr> Pop-Ups</h2> 
+        <p class="popup list"></p>
+        </section>
+
+        <section id="fonts">
+        <h2> <hr> Fonts</h2>
+        <ul class="fonts list">
+            <li> 
+                <h3></h3>
+                <p class="fonts__">
+                
+                </p>
+            </li>
+
+        </ul>
+        
+        </section>
+    </main>
+
+    <script>
+
+const menuIcon = document.querySelector(".hamburger-menu");
+const navbar = document.querySelector(".navbar");
+
+menuIcon.addEventListener("click", () => {
+    navbar.classList.toggle("change");
+});
+
+    </script>
+  
+</body>
+</html>
