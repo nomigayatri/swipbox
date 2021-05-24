@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styleguide.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df249e4577.js" crossorigin="anonymous"></script>
     <title>Styleguide SwipBox Infinity App</title>
 </head>
 <body>
@@ -57,7 +58,6 @@
                 <li class="menu__item">
                     <a href="#Illustrations" class="menu__link">Illustrations</a>
                 </li>
-               
                 <li class="menu__item">
                     <a href="#buttons" class="menu__link">Buttons</a>
                 </li>
@@ -152,33 +152,102 @@
 
         <section id="Illustrations">
         <h2> <hr> Illustrations</h2>
-        <ul class="list ulbackground">
+        <ul class="ulillustrations">
             <li> 
-                 <h3>SwipBox City-Illustration</h3>
-                 <p class="city illustration">
-                 </p>
+                 <h3 class="illustration" >SwipBox City-Illustration</h3>
+                    <img class="city picture" src="img/SwipBox-illustration-city.png" alt="cityillustration with a pakkeboks">
              </li>
+
+             <li> 
+                <h3 class="illustration" >SwipBox hentpakke-Illustration (stort)</h3>
+                    <img class="hentpakke__stort picture" src="img/hentpakke-stort.png" alt="illustration of a box in orange">
+            </li>
+
+            <li> 
+                <h3 class="illustration" >SwipBox sendpakke-Illustration (stort)</h3>
+                    <img class="sendpakke__stor picture" src="img/sendpakke-stort.png" alt="illustration of a box in blue">
+            </li>
+
+            <li> 
+                <h3 class="illustration" >SwipBox sendpakke-Illustration</h3>
+                    <img class="hentpakke__mellem picture" src="img/hentpakke-mellem.png" alt="illustration of a box in orange">
+            </li>
+
+            <li> 
+                <h3 class="illustration" >SwipBox sendpakke-Illustration</h3>
+                    <img class="sendpakke__mellem picture" src="img/sendpakke-mellem.png" alt="illustration of a in blue">
+            </li>
+
          </ul>
         </section>
 
 
         <section id="buttons">
         <h2> <hr> Buttons</h2>
-        <ul class="list buttons">
+        <ul class=" ulbuttons">
             <li> 
-                <h3>Main-Button</h3>
+                <h3>Main-Button 'Hent pakke'</h3>
                 <p class="mainbutton preview">
                       videre
                 </p>
-                
             </li>
+
+            <li>
+                <h3>Main-Button 'Send pakke'</h3>
+                <p class="mainbutton preview mainbutton__sendpakke">
+                      videre
+                </p>
+            </li>
+
+            <li>
+                <h3>Step-by-Step Guide-Button</h3>
+                <p class="mainbutton preview mainbutton__guide">
+                    <i class="fas fa-chevron-right"></i>
+                </p>
+                </li>
+
+                <li>
+                    <h3>Login-Button</h3>
+                    <p class="mainbutton preview button__login">
+                        login
+                    </p>
+                    </li>
+    
+
          </ul>
         </section>
 
         
         <section id="popups" >
         <h2> <hr> Pop-Ups</h2> 
-        <p class="popup list"></p>
+        <section class="popup__tilladelser">  
+
+            <section class="tilladelsericons">
+            <i class="fab fa-bluetooth-b fa-5x"></i>
+            <i class="fas fa-map-marker-alt fa-5x"></i>
+            </section>
+
+            <h4 class="heading__tilladelser" >
+                Tilladelser
+            </h4>
+            
+            <section class="bluetooth">
+                <h5 class="underheading__tilladelser" >Bluetooth</h5>
+                <p class="text__tilladelser">Bluetooth er krævet for at kunne <br> finde og åbne lågerne i <br> SwipBox pakkeboksen.</p>
+              
+            </section>
+            
+
+            <section class="lokation">
+                <h5 class="underheading__tilladelser">Lokation</h5>
+                <p class="text__tilladelser">For at bruge featuren 'vis vej' <br> har SwipBox brug for din tilladelse <br> til brug af lokation.</p>
+            </section>
+
+            <button class="button button__tilladelser">
+                videre
+            </button>
+
+       </section>
         </section>
 
         <section id="fonts">
