@@ -171,7 +171,89 @@ ul {
 }
 
 /*Pop-Ups*/
+
+/*tilladelser*/
 .button__tilladelser {
+   font-size: 2em;
+}
+
+.popup__tilladelser {
+    border: 1px solid rgb(88, 87, 87);
+    border-radius: 10px;
+    text-align: center;
+    width: 370px;
+    height: 600px;
+    color: #16273D;
+    display: grid;
+    grid-template-rows: 10px 1fr 90px 1fr 1fr 80px;
+}
+
+.heading__tilladelser {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.fa-times {
+justify-self: end;
+margin: 15px;
+color: #11B8D7;
+}
+
+.fab{
+    color: #11B8D7;
+    margin-top: 30px;
+    justify-self: end;
+}
+
+.fa-map-marker-alt{
+    color: #EA5B0C;
+    margin-top: 60px;
+    justify-self: start;
+}
+.tilladelsericons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/*loadingpakker*/
+.popup__searchingbluetooth {
+    border: 1px solid rgb(88, 87, 87);
+    border-radius: 10px;
+    text-align: center;
+    color: #16273D;
+    width: 370px;
+    font-size: 1.7em;
+
+}
+
+/*boxnotopen*/
+.popup__boxnotopen {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 10px;
+    text-align: center;
+    color: #16273D;
+    width: 370px;
+    height: 300px;
+    background-color: #90D7EC;
+}
+
+.notopentext {
+    font-size: 1.8em;
+}
+.underheading__tilladelser {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.text__tilladelser {
+    margin-top: 1px;
+    font-size: 1.1em;
+}
+
+.buttonorange { 
     background-color: #EA5B0C;
     height: 71px;
     width: 220px;
@@ -185,42 +267,29 @@ ul {
     justify-self: center;
 }
 
-.popup__tilladelser {
-    border: 1px solid rgb(88, 87, 87);
+.button__openagain {
+    font-size: 1.5em;
+}
+
+.button__contactservice {
+    font-size: 1.5em;
+}
+
+/* Door of box is still open */
+.popup__reminderdoor {
     border-radius: 10px;
     text-align: center;
-    width: 370px;
-    height: 600px;
     color: #16273D;
-    display: grid;
-    grid-template-rows: 1fr 90px 1fr 1fr 80px;
+    width: 370px;
+    height: 180px;
+    background-color: #EA5B0C;
+    font-size: 2.5em;
+
 }
 
-.heading__tilladelser {
-    font-size: 2em;
-    margin-bottom: 0;
+.reminderdoortext {
+    margin: 0;
 }
-
-.fab{
-    color: #11B8D7;
-    margin-top: 60px;
-}
-
-.fas{
-    color: #EA5B0C;
-}
-
-
-.underheading__tilladelser {
-    font-size: 1.3em;
-    margin-bottom: 0px;
-}
-
-.text__tilladelser {
-    margin-top: 1px;
-    font-size: 1.1em;
-}
-
 
 /* Fonts */
 
