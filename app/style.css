@@ -29,7 +29,7 @@ button {
   justify-self: center;
 }
 
-.buttonorange {
+.buttonsend {
   background-color: #EA5B0C;
 }
 
@@ -203,4 +203,21 @@ button {
 
 .p__tilladelser {
   margin-top: 0;
+}
+
+/* ---------- Afhent pakke ---------- */
+.hentpakke__lille {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tekst__map {
+  text-decoration: none;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #16273D;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 2px;
 }
