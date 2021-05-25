@@ -171,6 +171,13 @@ ul {
 }
 
 /*Pop-Ups*/
+.ulpopups{
+    padding-left: 3px;
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 /*tilladelser*/
 .button__tilladelser {
@@ -224,7 +231,10 @@ color: #11B8D7;
     text-align: center;
     color: #16273D;
     width: 370px;
+    height: 320px;
     font-size: 1.7em;
+    margin-top: 20px;
+
 
 }
 
@@ -238,6 +248,7 @@ color: #11B8D7;
     width: 370px;
     height: 300px;
     background-color: #90D7EC;
+    margin-top: 20px;
 }
 
 .notopentext {
@@ -277,18 +288,44 @@ color: #11B8D7;
 
 /* Door of box is still open */
 .popup__reminderdoor {
+    border: 1px solid rgb(88, 87, 87);
     border-radius: 10px;
     text-align: center;
     color: #16273D;
     width: 370px;
-    height: 180px;
-    background-color: #EA5B0C;
+    height: 198px;
     font-size: 2.5em;
-
+    background-color: #EA5B0C;
+    margin-top: 20px;
 }
 
 .reminderdoortext {
     margin: 0;
+}
+
+/*popup contactservice*/
+
+
+
+.popup__contactservice {
+    border: 1px solid rgb(88, 87, 87);
+    border-radius: 10px;
+    text-align: center;
+    color: #16273D;
+    width: 370px;
+    height: 198px;
+    font-size: 1.7em;
+    margin-top: 20px;
+}
+
+.servicenr {
+    color: #16273D;
+    text-decoration-color: #16273D;
+    font-weight: bold;
+}
+
+.heading__contactservice {
+    font-weight: normal;
 }
 
 /* Fonts */
