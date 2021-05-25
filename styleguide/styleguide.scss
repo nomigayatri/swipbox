@@ -186,7 +186,7 @@ ul {
 
 .popup__tilladelser {
     margin: 20px;
-    border: 1px solid rgb(88, 87, 87);
+    box-shadow: 3px 3px 20px grey;
     border-radius: 10px;
     text-align: center;
     width: 370px;
@@ -226,7 +226,7 @@ color: #11B8D7;
 
 /*loadingpakker*/
 .popup__searchingbluetooth {
-    border: 1px solid rgb(88, 87, 87);
+    box-shadow: 3px 3px 20px grey;
     border-radius: 10px;
     text-align: center;
     color: #16273D;
@@ -234,8 +234,6 @@ color: #11B8D7;
     height: 320px;
     font-size: 1.7em;
     margin-top: 20px;
-
-
 }
 
 /*boxnotopen*/
@@ -288,7 +286,7 @@ color: #11B8D7;
 
 /* Door of box is still open */
 .popup__reminderdoor {
-    border: 1px solid rgb(88, 87, 87);
+    box-shadow: 3px 3px 20px grey;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -305,7 +303,7 @@ color: #11B8D7;
 /*popup contactservice*/
 
 .popup__contactservice {
-    border: 1px solid rgb(88, 87, 87);
+    box-shadow: 3px 3px 20px grey;
     border-radius: 10px;
     text-align: center;
     color: #16273D;

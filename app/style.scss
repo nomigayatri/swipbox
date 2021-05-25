@@ -5,7 +5,7 @@ body {
 
 a {
     text-decoration: none;
-    color:#16273D;
+    color: #16273D;
 }
 /* ----------  Icon --------- */
 i {
@@ -21,7 +21,7 @@ i {
 
 /*  ----------  Buttons  ---------- */
 button { 
-    height: 71px;
+    height: 60px;
     width: 270px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -33,6 +33,10 @@ button {
     justify-self: center;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
 .buttonsend {
     background-color: #EA5B0C;
 
@@ -41,6 +45,14 @@ button {
 /* ----------  Pop-Ups ---------- */
 .popup {
     border-radius: 12px;
+    background-color: white;
+    text-align: center; 
+    opacity: 0.88;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 20px grey;
 }
 
 /*  ----------  hamburger menu ---------- */
@@ -166,16 +178,16 @@ color: #16273D;
 /* ---------- Pop-Up Tilladelser Bluetooth og Lokation ---------- */
 .popup__tilladelser {
     display: grid;
-    grid-template-rows: 10px 1fr 0.3fr 1fr 1fr 80px;
+    grid-template-rows: 1fr 1fr 0.3fr 1fr 1fr 80px;
     text-align: center;
     width: 370px;
     height: 600px;
 }
 
 .fa-times {
-justify-self: end;
-margin: 15px;
-color: #11B8D7;
+    justify-self: end;
+    margin: 15px;
+    color: #11B8D7;
 }
 
 .tilladelsericons {
@@ -185,13 +197,12 @@ color: #11B8D7;
 
 .fa-6x {
      color: #11B8D7;
-    margin-top: 50px;
     justify-self: end;
 }
 
 .fa-5x {
     color: #EA5B0C;
-    margin-top: 80px;
+    margin-top: 20px;
     justify-self: start;
 }
   
@@ -253,3 +264,64 @@ color: #11B8D7;
 .adress__hentpakke {
     font-size: 1.2em;
 }
+
+/* ---------- Bluetooth searching ---------- */
+.pakkeboks {
+  z-index: -1;
+  width: 200px;
+  
+}
+
+
+.popup__bluetoothsearch {
+    width: 330px;
+    height: 320px;
+    font-size: 1.4em;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+
+.main__bluetoothsearch {
+  display: grid;
+  text-align: center;
+  justify-items: center;
+}
+
+/* ---------- Open Box ---------- */
+.main__openbox {
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr 0.2fr;
+    text-align: center;
+    justify-items: center;
+    line-height: 30%;
+}
+
+.adress__openbox {
+    font-size: 1em;
+}
+
+.heading__openbox {
+    margin-top: 40px;
+}
+
+.button__openbox{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.text__doordontopen {
+    text-decoration:none;
+    text-decoration-line: underline;
+    color: #16273D;
+    font-weight: bold;
+}
+
+/* ---------- Open Box ---------- */
+.main__boxisopen {
+    display: grid;
+    grid-template-rows: 0.2fr 2fr 0.2fr;
+    text-align: center;
+    justify-items: center;
+}
+
