@@ -1,8 +1,44 @@
+/* ----------  general stylerules ---------- */
 body {
-  background-color: black;
+  font-family: "Exo 2", sans-serif;
 }
 
-/* hamburger menu*/
+/* ----------  Icon --------- */
+i {
+  color: #16273D;
+  top: 30px;
+  left: 30px;
+}
+
+/* ----------  Icon (back) ---------- */
+.fa-chevron-left {
+  position: fixed;
+}
+
+/*  ----------  Buttons  ---------- */
+button {
+  height: 71px;
+  width: 270px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-style: bold;
+  font-size: 2em;
+  border: none;
+  justify-self: center;
+}
+
+.buttonorange {
+  background-color: #EA5B0C;
+}
+
+/* ----------  Pop-Ups ---------- */
+.popup {
+  border-radius: 12px;
+}
+
+/*  ----------  hamburger menu ---------- */
 .navbarsection {
   display: block;
 }
@@ -90,5 +126,81 @@ body {
 }
 
 .logomenu {
-  width: 120px;
+  max-width: 120px;
+  position: relative;
+  top: 140px;
+  left: 25%;
+}
+
+/* ---------- Login Page ----------  */
+.mainlogin {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.logo__login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.button__login {
+  background-color: #16273D;
+  margin: 15px;
+}
+
+.button__opretkonto {
+  align-self: end;
+}
+
+/* ---------- Pop-Up Tilladelser Bluetooth og Lokation ---------- */
+.popup__tilladelser {
+  display: grid;
+  grid-template-rows: 10px 1fr 0.3fr 1fr 1fr 80px;
+  text-align: center;
+  width: 370px;
+  height: 600px;
+}
+
+.fa-times {
+  justify-self: end;
+  margin: 15px;
+  color: #11B8D7;
+}
+
+.tilladelsericons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fab {
+  color: #11B8D7;
+  margin-top: 50px;
+  justify-self: end;
+}
+
+.fa-map-marker-alt {
+  color: #EA5B0C;
+  margin-top: 80px;
+  justify-self: start;
+}
+
+.heading__tilladelser {
+  font-size: 2em;
+  margin-bottom: 70px;
+}
+
+.underheading__tilladelser {
+  margin: 0;
+}
+
+.text__tilladelser {
+  font-size: 1.2em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.p__tilladelser {
+  margin-top: 0;
 }

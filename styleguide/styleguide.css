@@ -323,7 +323,11 @@ ul {
   margin-top: 50px;
 }
 
-/* Fonts */
+/*Icon*/
+i {
+  color: #16273D;
+}
+
 /*Media Query Selector */
 @media screen and (max-width: 730px) {
   .ulpopups {
