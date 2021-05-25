@@ -176,7 +176,7 @@ ul {
     text-align: center;
     justify-items: center;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 /*tilladelser*/
@@ -185,6 +185,7 @@ ul {
 }
 
 .popup__tilladelser {
+    margin: 20px;
     border: 1px solid rgb(88, 87, 87);
     border-radius: 10px;
     text-align: center;
@@ -246,7 +247,7 @@ color: #11B8D7;
     text-align: center;
     color: #16273D;
     width: 370px;
-    height: 300px;
+    height: 320px;
     background-color: #90D7EC;
     margin-top: 20px;
 }
@@ -290,6 +291,9 @@ color: #11B8D7;
 .popup__reminderdoor {
     border: 1px solid rgb(88, 87, 87);
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #16273D;
     width: 370px;
@@ -299,13 +303,7 @@ color: #11B8D7;
     margin-top: 20px;
 }
 
-.reminderdoortext {
-    margin: 0;
-}
-
 /*popup contactservice*/
-
-
 
 .popup__contactservice {
     border: 1px solid rgb(88, 87, 87);
@@ -316,6 +314,8 @@ color: #11B8D7;
     height: 198px;
     font-size: 1.7em;
     margin-top: 20px;
+    display: grid;
+    grid-template-rows: 10px 1fr 1fr;
 }
 
 .servicenr {
@@ -326,6 +326,7 @@ color: #11B8D7;
 
 .heading__contactservice {
     font-weight: normal;
+    margin-top: 50px;
 }
 
 /* Fonts */
@@ -334,6 +335,10 @@ color: #11B8D7;
 /*Media Query Selector */
 @media screen and (max-width: 730px) {
 
+.ulpopups {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .ulbuttons {
         display: grid;
         grid-template-columns: 1fr;
