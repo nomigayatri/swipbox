@@ -404,3 +404,29 @@ color: #16273D;
     justify-self: end;
 }
 
+/* ---------- Feedback ---------- */
+
+/* ---------- Rating Stars ---------- */
+
+ .rating {
+    position: relative;
+    width: 180px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
+    padding: 5px;
+    
+ }
+ 
+ .rating__star {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #C8E9EF;
+    transition: filter linear .3s;
+ }
+ 
+ .rating__star:hover {
+    filter: drop-shadow(1px 1px 4px #C8E9EF);
+ }
