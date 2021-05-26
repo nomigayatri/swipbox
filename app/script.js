@@ -3,7 +3,7 @@ const navbar = document.querySelector(".navbar");
 
 menuIcon.addEventListener("click", () => {
     navbar.classList.toggle("change");
-});
+})
 
 
 /* Rating Stars inspiration: https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3*/
