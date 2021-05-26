@@ -405,6 +405,7 @@ button a {
 /* ---------- Bluetooth searching ---------- */
 .pakkeboks {
   z-index: -1;
+  margin-top: 50px;
 }
 
 .popup__bluetoothsearch {
@@ -451,12 +452,16 @@ button a {
   font-weight: bold;
 }
 
-/* ---------- Open Box ---------- */
+/* ---------- Boxisopen ---------- */
 .main__boxisopen {
   display: grid;
   grid-template-rows: 0.2fr 2fr 0.2fr;
   text-align: center;
   justify-items: center;
+}
+
+.pakkeboks__open {
+  margin-right: 50px;
 }
 
 /* ---------- Box dont open ---------- */

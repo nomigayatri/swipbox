@@ -412,9 +412,9 @@ margin-top: 10px;
 /* ---------- Bluetooth searching ---------- */
 .pakkeboks {
   z-index: -1;
+  margin-top: 50px;
 
 }
-
 
 .popup__bluetoothsearch {
     height: 320px;
@@ -459,12 +459,16 @@ margin-top: 10px;
     font-weight: bold;
 }
 
-/* ---------- Open Box ---------- */
+/* ---------- Boxisopen ---------- */
 .main__boxisopen {
     display: grid;
     grid-template-rows: 0.2fr 2fr 0.2fr;
     text-align: center;
     justify-items: center;
+}
+
+.pakkeboks__open {
+    margin-right: 50px;
 }
 
 /* ---------- Box dont open ---------- */
