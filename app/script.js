@@ -39,4 +39,5 @@ function printRatingResult(result, num = 0) {
 
 executeRating(ratingStars, ratingResult);
 
+/* Pop Up Contact-Service */
 
