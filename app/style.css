@@ -60,8 +60,8 @@ button a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-box-shadow: 3px 3px 20px grey;
-          box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px #a2a4a7;
+          box-shadow: 3px 3px 20px #a2a4a7;
   width: 330px;
 }
 
@@ -200,8 +200,8 @@ button a {
 
 .linkbox {
   border-radius: 12px;
-  -webkit-box-shadow: 3px 3px 20px grey;
-          box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px #a2a4a7;
+          box-shadow: 3px 3px 20px #a2a4a7;
   width: 330px;
   height: 135px;
   display: -ms-grid;
@@ -269,7 +269,7 @@ button a {
   z-index: -1;
 }
 
-.fas {
+.fa-chevron-right_guide {
   width: 70px;
   height: 70px;
   background-color: #F47932;
@@ -290,8 +290,8 @@ button a {
 
 .box__minepakker {
   border-radius: 12px;
-  -webkit-box-shadow: 3px 3px 20px grey;
-          box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px #a2a4a7;
+          box-shadow: 3px 3px 20px #a2a4a7;
   width: 330px;
   height: 180px;
   margin-top: 15px;
@@ -583,7 +583,7 @@ button a {
   margin-top: 15px;
   font-size: 1.3em;
   width: 270px;
-  background-color: #c7c7c7;
+  background-color: #a2a4a7;
 }
 
 .heading__boxdontopen {

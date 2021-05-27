@@ -57,7 +57,7 @@ button a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 3px 3px 20px grey;
+    box-shadow: 3px 3px 20px #a2a4a7;;
     width: 330px;
 }
 
@@ -182,7 +182,7 @@ color: #16273D;
 
 .linkbox {
     border-radius: 12px;
-    box-shadow: 3px 3px 20px grey;
+    box-shadow: 3px 3px 20px #a2a4a7;
     width: 330px;
     height: 135px;
     display: grid;
@@ -248,7 +248,7 @@ color: #16273D;
     z-index: -1;
 }
 
-.fas {
+.fa-chevron-right_guide {
     width: 70px;
     height: 70px;
     background-color: #F47932;
@@ -269,7 +269,7 @@ color: #16273D;
 
 .box__minepakker {
     border-radius: 12px;
-    box-shadow: 3px 3px 20px grey;
+    box-shadow: 3px 3px 20px #a2a4a7;
     width: 330px;
     height: 180px;
     margin-top: 15px;
@@ -542,7 +542,7 @@ margin-top: 10px;
     margin-top: 15px;
     font-size: 1.3em;
     width: 270px;
-    background-color: #c7c7c7;
+    background-color: #a2a4a7;
 }
 
 .heading__boxdontopen {
