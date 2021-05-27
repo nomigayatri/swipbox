@@ -312,8 +312,11 @@ button a {
   margin-top: 77px;
 }
 
-.fa-map-marker-alt {
-  text-align: center;
+.fa-8x {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
 }
 
 /* ---------- Mine Pakker ---------- */
