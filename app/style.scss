@@ -71,6 +71,7 @@ button a {
 width: 300px;
 height: 100%;
 background-color: white;
+box-shadow: 3px 3px 20px #a2a4a7;;
 position: fixed;
 top: 0;
 right: -300px;
@@ -128,6 +129,15 @@ padding-left: 0;
 .nav-item {
 list-style: none;
 margin: 30px;
+display: grid;
+grid-template-columns: 0.3fr 1fr;
+}
+
+.menuicon {
+    font-size: 1.3em;
+    display: grid;
+    justify-self: center;
+    align-items: center;
 }
 
 .nav-link {
@@ -139,14 +149,22 @@ font-family: 'Exo 2', sans-serif;
 letter-spacing: 1.5px;
 text-transform: uppercase;
 padding:0;
+display: grid;
+justify-self: start;
 }
 
+.navlink__kundeservice {
+    margin-left: 16px;
+}
+.fa-phone-alt {
+    margin-left: 18px;
+}
 .nav-link:hover {
 color: #16273D;
 }
 
 .icon {
-    width: 35px;
+    width: 32px;
 }
 
 .logomenu {
