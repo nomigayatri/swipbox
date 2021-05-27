@@ -1,3 +1,4 @@
+/* --------- variabler ---------*/
 /* ----------  general stylerules ---------- */
 body {
   font-family: "Exo 2", sans-serif;
@@ -9,7 +10,7 @@ a {
   color: #16273D;
 }
 
-/* ----------  Icon --------- */
+/* ---------- Icon --------- */
 i {
   color: #16273D;
   top: 30px;
@@ -41,7 +42,7 @@ button a {
   color: white;
 }
 
-.buttonsend {
+.buttonhent {
   background-color: #EA5B0C;
 }
 
@@ -239,6 +240,7 @@ button a {
   margin-left: 10px;
 }
 
+/*  ------------- Guides ------------ */
 /* ---------- Mine Pakker ---------- */
 .img__hentpakke-stort {
   position: fixed;
@@ -309,6 +311,7 @@ button a {
 .fa-chevron-right {
   margin-top: 80px;
   margin-left: 12px;
+  color: #ffffff;
 }
 
 .minepakker__logind {
