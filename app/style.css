@@ -31,7 +31,7 @@ button {
   color: white;
   font-family: "Exo 2", sans-serif;
   font-style: bold;
-  font-size: 1.83em;
+  font-size: 1.6em;
   border: none;
   justify-self: center;
 }
@@ -528,11 +528,14 @@ button a {
   height: 290px;
 }
 
-.button__contactservice {
-  margin-top: 15px;
-  font-size: 1.3em;
+.button__kundeservice {
+  background: #a2a4a7;
+  height: 60px;
   width: 270px;
-  background-color: #a2a4a7;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-size: 1.5em;
+  margin-top: 15px;
 }
 
 .heading__boxdontopen {
@@ -578,7 +581,6 @@ button a {
   font-size: 40px;
 }
 
-/* ---------- Popup Contact Service ---------- */
 /* ---------- Feedback ---------- */
 .rating {
   width: 180px;
@@ -657,12 +659,12 @@ button a {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
   border-radius: 12px;
   z-index: 10;
   background-color: white;
   width: 500px;
-  max-width: 50%;
+  max-width: 330px;
+  height: 170px;
 }
 
 .kundeservice.active {
@@ -674,12 +676,12 @@ button a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
 }
 
 .kundeservice-header .title {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 1.7em;
+  margin-top: 30px;
 }
 
 .kundeservice-header .close-button {
@@ -712,10 +714,33 @@ button a {
   pointer-events: all;
 }
 
-.button__kundeservice {
-  width: 200px;
-  height: 80px;
-  background: orange;
-  border: none;
-  border-radius: 20px;
+.telefonnummer {
+  font-size: 1.8em;
+  font-weight: bold;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
+
+/*
+.popup__contactservice {
+    height: 170px;
+    display: grid;
+    grid-template-rows: 10px 1fr 1fr;
+}
+
+.telefonnummer {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.heading__contactservice {
+    font-weight: normal;
+    font-size: 1.7em;
+    margin-top: 30px;
+}
+
+.x {
+    justify-self: end;
+}
+*/
