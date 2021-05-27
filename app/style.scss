@@ -288,13 +288,15 @@ color: #16273D;
     margin-top: 77px;
 }
 
-.fa-8x {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+.step2 {
+    display: grid;
+    grid-template-rows: 2fr 0.1fr 0.1fr;
+    justify-items: center;
 }
 
+.fa-8x {
+    margin-top: 30px;
+}
 
 /* ---------- Mine Pakker ---------- */
 
