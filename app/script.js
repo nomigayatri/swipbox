@@ -40,8 +40,6 @@ executeRating(ratingStars, ratingResult);
 
 /* Pop Up Contact-Service */
 
-
-
 const openKundeserviceButtons = document.querySelectorAll('[data-kundeservice-target]')
 const closeKundeserviceButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
@@ -94,10 +92,7 @@ closeKundeserviceButtons.forEach(button => {
 
 }
 
-
 /*PopUp Door is not closed*/
-
-/*next test*/
 
 if(document.querySelector(".popUp2") !== null) {
    const popUp2 = document.querySelector(".popUp2");
@@ -124,7 +119,7 @@ if(document.querySelector(".popUp2") !== null) {
 
 
 if(document.querySelector(".popUp") !== null){
-   const popUp = document.querySelector(".popUp");
+const popUp = document.querySelector(".popUp");
 const btn = document.querySelector(".hidePopUp");
 
 function hidePopUp(){
