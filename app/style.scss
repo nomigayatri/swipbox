@@ -31,7 +31,7 @@ button {
     color: white;
     font-family: 'Exo 2', sans-serif;
     font-style: bold;
-    font-size: 2em;
+    font-size: 1.83em;
     border: none;
     justify-self: center;
 }
@@ -238,7 +238,22 @@ color: #16273D;
 
 /* -------------- Hent pakke Guide ---------------*/
 
+.hentguide {
+    background-color: #F47932;
+}
 
+.img__hentpakke-stort {
+    position: fixed;
+    left: -220px;
+    z-index: -1;
+}
+
+.fas {
+    width: 70px;
+    height: 70px;
+    background-color: #F47932;
+    box-shadow: 3px 3px 20px #F47932;
+}
 
 /* ---------- Mine Pakker ---------- */
 
@@ -425,12 +440,17 @@ margin-top: 10px;
    margin-top: 40px;
 }
 
+
+
 .button__overdrag{
     margin-top: 15px;
+    font-size: 1.3em;
+    width: 200px;
+    background-color: #FDC689;
 }
 
 .adress__hentpakke {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 /* ---------- Bluetooth searching ---------- */
@@ -496,6 +516,22 @@ margin-top: 10px;
     margin-top: 7px;
 }
 
+.button__boxopen {
+    background-color: #F47932;
+    height: 60px;
+    width: 270px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-style: bold;
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 /* ---------- Box dont open ---------- */
 .errorbox {
     background: rgba(17, 184, 215, 0.4);
@@ -503,8 +539,10 @@ margin-top: 10px;
 }
 
 .button__contactservice {
-    font-size: 1.4em;
     margin-top: 15px;
+    font-size: 1.3em;
+    width: 270px;
+    background-color: #c7c7c7;
 }
 
 .heading__boxdontopen {
