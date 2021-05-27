@@ -52,29 +52,92 @@ openKundeserviceButtons.forEach(button => {
         openKundeservice(kundeservice)
     })
 })
-
-overlay.addEventListener('click' , () => {
-    const kundeservice = document.queryselectorAll('.kundeservice.active')
-    kundeservice.forEach(kundeservice => {
-        closeKundeservice(kundeservice)
-    })
+if(document.querySelector("[data-kundeservice-target]") !== null) {overlay.addEventListener('click' , () => {
+   const kundeservice = document.queryselectorAll('.kundeservice.active')
+   kundeservice.forEach(kundeservice => {
+       closeKundeservice(kundeservice)
+   })
 })
 
 closeKundeserviceButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const kundeservice = button.closest('.kundeservice')
-        closeKundeservice(kundeservice)
-    })
+   button.addEventListener('click', () => {
+       const kundeservice = button.closest('.kundeservice')
+       closeKundeservice(kundeservice)
+   })
 })
 
 function openKundeservice(kundeservice) {
-    if (kundeservice == null) return
-    kundeservice.classList.add('active')
-    overlay.classList.add('active')
+   if (kundeservice == null) return
+   kundeservice.classList.add('active')
+   overlay.classList.add('active')
 }
 
 function closeKundeservice(kundeservice) {
-    if (kundeservice == null) return
-    kundeservice.classList.remove('active')
-    overlay.classList.remove('active')
+   if (kundeservice == null) return
+   kundeservice.classList.remove('active')
+   overlay.classList.remove('active')
+}
+
+overlay.addEventListener('click' , () => {
+   const kundeservice = document.queryselectorAll('.kundeservice.active')
+   kundeservice.forEach(kundeservice => {
+       closeKundeservice(kundeservice)
+   })
+})
+
+closeKundeserviceButtons.forEach(button => {
+   button.addEventListener('click', () => {
+       const kundeservice = button.closest('.kundeservice')
+       closeKundeservice(kundeservice)
+   })
+})
+
+}
+
+
+/*PopUp Door is not closed*/
+
+/*next test*/
+
+if(document.querySelector(".popUp2") !== null) {
+   const popUp2 = document.querySelector(".popUp2");
+
+   function removeHide(){
+       if(popUp2.classList.contains("hide")){
+           popUp2.classList.remove("hide");
+       }
+   }
+
+   function addHide (){
+       if(!popUp2.classList.contains("hide")){
+           popUp2.classList.add("hide");
+       }
+   }
+
+   setTimeout(()=>{
+       removeHide();
+   }, 2000);
+}
+
+
+/* PopUp Bluetooth */
+
+
+if(document.querySelector(".popUp") !== null){
+   const popUp = document.querySelector(".popUp");
+const btn = document.querySelector(".hidePopUp");
+
+function hidePopUp(){
+   if(!popUp.classList.contains("hide")){
+       popUp.classList.add("hide")
+   }
+}
+
+function showPopUp(){
+   if(!popUp.classList.contains("hide")){
+       popUp.classList.remove("hide")
+   }
+}
+
+btn.addEventListener("click", hidePopUp);
 }
