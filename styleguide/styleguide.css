@@ -21,8 +21,12 @@ h2 {
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .menu__link {
@@ -42,7 +46,9 @@ h2 {
 }
 
 .menu__list {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
   width: 3000px;
   padding: 1rem 2rem;
@@ -56,7 +62,9 @@ h2 {
 
 .list {
   padding-left: 3px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   color: #383A3D;
@@ -112,15 +120,23 @@ ul {
 
 .preview {
   height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* illustrations */
 .ulillustrations {
   padding-left: 3px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   color: #383A3D;
@@ -138,7 +154,9 @@ ul {
 /*Buttons*/
 .ulbuttons {
   padding-left: 3px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   text-align: center;
   justify-items: center;
@@ -190,7 +208,9 @@ ul {
   padding-left: 3px;
   text-align: center;
   justify-items: center;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -201,13 +221,16 @@ ul {
 
 .popup__tilladelser {
   margin: 20px;
-  box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px grey;
+          box-shadow: 3px 3px 20px grey;
   border-radius: 10px;
   text-align: center;
   width: 370px;
   height: 600px;
   color: #16273D;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 10px 1fr 90px 1fr 1fr 80px;
   grid-template-rows: 10px 1fr 90px 1fr 1fr 80px;
 }
 
@@ -218,7 +241,8 @@ ul {
 }
 
 .fa-times {
-  justify-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
   margin: 15px;
   color: #11B8D7;
 }
@@ -226,23 +250,28 @@ ul {
 .fab {
   color: #11B8D7;
   margin-top: 30px;
-  justify-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .fa-map-marker-alt {
   color: #EA5B0C;
   margin-top: 60px;
-  justify-self: start;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .tilladelsericons {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
 /*loadingpakker*/
 .popup__searchingbluetooth {
-  box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px grey;
+          box-shadow: 3px 3px 20px grey;
   border-radius: 10px;
   text-align: center;
   color: #16273D;
@@ -254,7 +283,9 @@ ul {
 
 /*boxnotopen*/
 .popup__boxnotopen {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   border-radius: 10px;
   text-align: center;
@@ -290,7 +321,8 @@ ul {
   font-style: bold;
   font-size: 2em;
   border: none;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .button__openagain {
@@ -303,11 +335,18 @@ ul {
 
 /* Door of box is still open */
 .popup__reminderdoor {
-  box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px grey;
+          box-shadow: 3px 3px 20px grey;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   color: #16273D;
   width: 370px;
@@ -319,7 +358,8 @@ ul {
 
 /*popup contactservice*/
 .popup__contactservice {
-  box-shadow: 3px 3px 20px grey;
+  -webkit-box-shadow: 3px 3px 20px grey;
+          box-shadow: 3px 3px 20px grey;
   border-radius: 10px;
   text-align: center;
   color: #16273D;
@@ -327,7 +367,9 @@ ul {
   height: 198px;
   font-size: 1.7em;
   margin-top: 20px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 10px 1fr 1fr;
   grid-template-rows: 10px 1fr 1fr;
 }
 
@@ -351,22 +393,30 @@ i {
 /*Media Query Selector */
 @media screen and (max-width: 730px) {
   .ulpopups {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .ulbuttons {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .ulillustrations {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .list {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -392,9 +442,16 @@ i {
     top: 0;
     left: -300px;
     /* -300px: moving the menu out of the screen */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: left 0.8s cubic-bezier(1, 0, 0, 1);
     transition: left 0.8s cubic-bezier(1, 0, 0, 1);
     z-index: 1;
   }
@@ -411,20 +468,28 @@ i {
     top: 30px;
     left: 30px;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 
   .line {
     width: 100%;
     height: 3px;
     background-color: #1b1b1a;
+    -webkit-transition: all 0.8s;
     transition: all 0.8s;
   }
 
   .change .line-1 {
-    transform: rotateZ(-405deg) translate(-8px, 6px);
+    -webkit-transform: rotateZ(-405deg) translate(-8px, 6px);
+            transform: rotateZ(-405deg) translate(-8px, 6px);
     background-color: #e8e384;
   }
 
@@ -433,7 +498,8 @@ i {
   }
 
   .change .line-3 {
-    transform: rotateZ(405deg) translate(-8px, -6px);
+    -webkit-transform: rotateZ(405deg) translate(-8px, -6px);
+            transform: rotateZ(405deg) translate(-8px, -6px);
     background-color: #e8e384;
   }
 

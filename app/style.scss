@@ -225,15 +225,21 @@ color: #16273D;
 /*  ------------- Guides ------------ */
 
 .button__hentpakke-guide {
-    justify-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button__sendpakke-guide {
-    justify-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 .guides_h1 {
     text-align: center;
     font-size: 3em;
 }
+
 
 
 /* -------------- Hent pakke Guide ---------------*/
@@ -251,9 +257,7 @@ color: #16273D;
 .fa-chevron-right_guide {
     width: 70px;
     height: 70px;
-    /*background-color: #F47932;*/
-    background-color: #ffffff;
-    box-shadow: 3px 3px 20px #6a6867;
+    background-color: #EA5B0C;
 }
 
 .skip_guide {
@@ -295,7 +299,28 @@ color: #16273D;
 }
 
 .fa-8x {
-    margin-top: 180px;
+    margin-top: 200px;
+}
+
+.button__afhent_step3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+.finger_touch_step3 {
+    text-align: center;
+}
+
+.button__afhent_step4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+.finger_touch_step4 {
+    text-align: center;
 }
 
 
@@ -520,7 +545,7 @@ margin-top: 10px;
   justify-items: center;
 }
 .loading_bluetooth {
-    max-width: 50px;
+    max-width: 170px;
 }
 
 /* ---------- Open Box ---------- */
