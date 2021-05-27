@@ -33,7 +33,8 @@ button {
   font-style: bold;
   font-size: 1.83em;
   border: none;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 button a {
@@ -57,8 +58,10 @@ button a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 3px 3px 20px #a2a4a7;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 3px 3px 20px #a2a4a7;
+          box-shadow: 3px 3px 20px #a2a4a7;
   width: 330px;
 }
 
@@ -75,8 +78,13 @@ button a {
   top: 0;
   right: -300px;
   /* -300px: moving the menu out of the screen */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: right 0.8s cubic-bezier(1, 0, 0, 1);
   transition: right 0.8s cubic-bezier(1, 0, 0, 1);
   z-index: 1;
 }
@@ -93,20 +101,28 @@ button a {
   top: 30px;
   right: 30px;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .line {
   width: 100%;
   height: 3px;
   background-color: #16273D;
+  -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
 
 .change .line-1 {
-  transform: rotateZ(-405deg) translate(-8px, 6px);
+  -webkit-transform: rotateZ(-405deg) translate(-8px, 6px);
+          transform: rotateZ(-405deg) translate(-8px, 6px);
   background-color: #16273D;
 }
 
@@ -115,7 +131,8 @@ button a {
 }
 
 .change .line-3 {
-  transform: rotateZ(405deg) translate(-8px, -6px);
+  -webkit-transform: rotateZ(405deg) translate(-8px, -6px);
+          transform: rotateZ(405deg) translate(-8px, -6px);
   background-color: #16273D;
 }
 
@@ -158,7 +175,9 @@ button a {
 
 /* ---------- Loadingpage ---------- */
 .loadingpage {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 0.3fr 0.5fr 1fr;
   grid-template-rows: 0.3fr 0.5fr 1fr;
   text-align: center;
   justify-items: center;
@@ -181,10 +200,13 @@ button a {
 
 .linkbox {
   border-radius: 12px;
-  box-shadow: 3px 3px 20px #a2a4a7;
+  -webkit-box-shadow: 3px 3px 20px #a2a4a7;
+          box-shadow: 3px 3px 20px #a2a4a7;
   width: 330px;
   height: 135px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
   margin-left: auto;
@@ -192,7 +214,9 @@ button a {
 }
 
 .main__home {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 2.7fr 1fr 1fr;
   grid-template-rows: 2.7fr 1fr 1fr;
   justify-items: center;
 }
@@ -249,7 +273,8 @@ button a {
   width: 70px;
   height: 70px;
   background-color: #F47932;
-  box-shadow: 3px 3px 20px #F47932;
+  -webkit-box-shadow: 3px 3px 20px #F47932;
+          box-shadow: 3px 3px 20px #F47932;
 }
 
 .skip_guide {
@@ -268,14 +293,17 @@ button a {
 
 .box__minepakker {
   border-radius: 12px;
-  box-shadow: 3px 3px 20px #a2a4a7;
+  -webkit-box-shadow: 3px 3px 20px #a2a4a7;
+          box-shadow: 3px 3px 20px #a2a4a7;
   width: 330px;
   height: 180px;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
   background: rgba(255, 255, 255, 0.88);
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 6fr 1fr;
   grid-template-columns: 6fr 1fr;
 }
 
@@ -286,7 +314,9 @@ button a {
 }
 
 .minpakke__adress {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 40px 1fr;
   grid-template-columns: 40px 1fr;
 }
 
@@ -324,7 +354,9 @@ button a {
 }
 
 .minepakker__logind {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   text-align: center;
   margin-top: 20px;
@@ -336,7 +368,9 @@ button a {
 
 /* ---------- Login Page ----------  */
 .mainlogin {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -353,12 +387,16 @@ button a {
 }
 
 .button__opretkonto {
-  align-self: end;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
 }
 
 /* ---------- Pop-Up Tilladelser Bluetooth og Lokation ---------- */
 .popup__tilladelser {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 10px 1fr 1fr 0.3fr 1fr 1fr 80px;
   grid-template-rows: 10px 1fr 1fr 0.3fr 1fr 1fr 80px;
   text-align: center;
   height: 600px;
@@ -367,24 +405,29 @@ button a {
 .fa-times {
   margin: 15px;
   color: #11B8D7;
-  justify-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .tilladelsericons {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
 .fa-6x {
   color: #11B8D7;
   margin-top: 10px;
-  justify-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .fa-5x {
   color: #EA5B0C;
   margin-top: 30px;
-  justify-self: start;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .heading__tilladelser {
@@ -425,7 +468,9 @@ button a {
 }
 
 .main__afhentpakke {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 0.1fr 1fr;
   grid-template-rows: 1fr 0.1fr 1fr;
   text-align: center;
 }
@@ -455,12 +500,14 @@ button a {
 .popup__bluetoothsearch {
   height: 320px;
   font-size: 1.4em;
+  display: -ms-grid;
   display: grid;
   text-align: center;
   justify-items: center;
 }
 
 .main__bluetoothsearch {
+  display: -ms-grid;
   display: grid;
   text-align: center;
   justify-items: center;
@@ -468,7 +515,9 @@ button a {
 
 /* ---------- Open Box ---------- */
 .main__openbox {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 0.2fr 1fr 0.2fr 0.2fr;
   grid-template-rows: 0.2fr 1fr 0.2fr 0.2fr;
   text-align: center;
   justify-items: center;
@@ -498,7 +547,9 @@ button a {
 
 /* ---------- Boxisopen ---------- */
 .main__boxisopen {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 0.2fr 2fr 0.2fr;
   grid-template-rows: 0.2fr 2fr 0.2fr;
   text-align: center;
   justify-items: center;
@@ -559,7 +610,9 @@ button a {
 
 /* ---------- Box Remind ---------- */
 .remindclosebox {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   text-align: center;
   justify-items: center;
@@ -574,9 +627,15 @@ button a {
 /* ---------- Popup Closebox ---------- */
 .popup__closebox {
   height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: rgba(234, 91, 12, 0.6);
   font-size: 40px;
 }
@@ -586,9 +645,15 @@ button a {
 .rating {
   width: 180px;
   background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 0.3em;
   padding: 5px;
 }
@@ -597,15 +662,21 @@ button a {
   font-size: 2.2em;
   cursor: pointer;
   color: #EA5B0C;
+  -webkit-transition: -webkit-filter linear 0.3s;
+  transition: -webkit-filter linear 0.3s;
   transition: filter linear 0.3s;
+  transition: filter linear 0.3s, -webkit-filter linear 0.3s;
 }
 
 .rating__star:hover {
-  filter: drop-shadow(1px 1px 4px #EA5B0C);
+  -webkit-filter: drop-shadow(1px 1px 4px #EA5B0C);
+          filter: drop-shadow(1px 1px 4px #EA5B0C);
 }
 
 .ratingbox {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: #FDC689;
   height: 400px;
@@ -614,7 +685,8 @@ button a {
 }
 
 .skipbutton {
-  justify-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
   margin: 40px;
   font-size: 1.2em;
   color: #16273D;
@@ -626,7 +698,9 @@ button a {
 
 /* ---------- Thank you for feedback ---------- */
 .thankyou {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   height: 500px;
   background-color: #FDC689;
@@ -651,14 +725,17 @@ button a {
 
 /*Popup test*/
 *, *::after, *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .kundeservice {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0);
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
   border: 1px solid black;
   border-radius: 12px;
@@ -669,14 +746,21 @@ button a {
 }
 
 .kundeservice.active {
-  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
 }
 
 .kundeservice-header {
   padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid black;
 }
 
@@ -701,6 +785,7 @@ button a {
 #overlay {
   position: fixed;
   opacity: 0;
+  -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
   top: 0;
   left: 0;
