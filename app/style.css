@@ -46,6 +46,10 @@ button a {
   background-color: #EA5B0C;
 }
 
+.buttonsend {
+  background-color: #11B8D7;
+}
+
 /* ----------  Pop-Ups ---------- */
 .popup {
   border-radius: 12px;
@@ -241,6 +245,20 @@ button a {
 }
 
 /*  ------------- Guides ------------ */
+.button__hentpakke-guide {
+  justify-items: center;
+}
+
+.button__sendpakke-guide {
+  justify-items: center;
+}
+
+.guides_h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* -------------- Hent pakke Guide ---------------*/
 /* ---------- Mine Pakker ---------- */
 .img__hentpakke-stort {
   position: fixed;
@@ -514,7 +532,8 @@ button a {
 }
 
 .pakkeboks__open {
-  margin-right: 50px;
+  margin-right: 55px;
+  margin-top: 7px;
 }
 
 /* ---------- Box dont open ---------- */
