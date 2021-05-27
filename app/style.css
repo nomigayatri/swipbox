@@ -32,7 +32,7 @@ button {
   color: white;
   font-family: "Exo 2", sans-serif;
   font-style: bold;
-  font-size: 1.83em;
+  font-size: 1.6em;
   border: none;
   -ms-grid-column-align: center;
       justify-self: center;
@@ -500,7 +500,7 @@ button a {
   font-weight: bold;
   font-size: 1.6em;
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .main__afhentpakke {
@@ -618,11 +618,14 @@ button a {
   height: 290px;
 }
 
-.button__contactservice {
-  margin-top: 15px;
-  font-size: 1.3em;
+.button__kundeservice {
+  background: #a2a4a7;
+  height: 60px;
   width: 270px;
-  background-color: #a2a4a7;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-size: 1.5em;
+  margin-top: 15px;
 }
 
 .heading__boxdontopen {
@@ -640,7 +643,7 @@ button a {
 .illustration__boxdontopen {
   display: block;
   margin-top: 100px;
-  max-width: 500px;
+  max-width: 320px;
   height: 445px;
 }
 
@@ -676,7 +679,6 @@ button a {
   font-size: 40px;
 }
 
-/* ---------- Popup Contact Service ---------- */
 /* ---------- Feedback ---------- */
 .rating {
   width: 180px;
@@ -773,12 +775,12 @@ button a {
           transform: translate(-50%, -50%) scale(0);
   -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
-  border: 1px solid black;
   border-radius: 12px;
   z-index: 10;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.9);
   width: 500px;
-  max-width: 50%;
+  max-width: 330px;
+  height: 170px;
 }
 
 .kundeservice.active {
@@ -788,21 +790,12 @@ button a {
 
 .kundeservice-header {
   padding: 10px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: 1px solid black;
 }
 
 .kundeservice-header .title {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 1.7em;
+  margin-top: 30px;
 }
 
 .kundeservice-header .close-button {
@@ -810,8 +803,11 @@ button a {
   border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  color: #11B8D7;
+  position: fixed;
+  top: 0;
 }
 
 .kundeservice-body {
@@ -827,7 +823,7 @@ button a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   pointer-events: none;
 }
 
@@ -836,10 +832,33 @@ button a {
   pointer-events: all;
 }
 
-.button__kundeservice {
-  width: 200px;
-  height: 80px;
-  background: orange;
-  border: none;
-  border-radius: 20px;
+.telefonnummer {
+  font-size: 1.8em;
+  font-weight: bold;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
+
+/*
+.popup__contactservice {
+    height: 170px;
+    display: grid;
+    grid-template-rows: 10px 1fr 1fr;
+}
+
+.telefonnummer {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.heading__contactservice {
+    font-weight: normal;
+    font-size: 1.7em;
+    margin-top: 30px;
+}
+
+.x {
+    justify-self: end;
+}
+*/
