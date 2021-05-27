@@ -237,9 +237,9 @@ color: #16273D;
 
 
 /* -------------- Hent pakke Guide ---------------*/
-
+/* general + button */
 .hentguide {
-    background-color: #F47932;
+    background-color: #F89E5D;
 }
 
 .img__hentpakke-stort {
@@ -251,19 +251,46 @@ color: #16273D;
 .fa-chevron-right_guide {
     width: 70px;
     height: 70px;
-    background-color: #F47932;
-    box-shadow: 3px 3px 20px #F47932;
+    /*background-color: #F47932;*/
+    background-color: #ffffff;
+    box-shadow: 3px 3px 20px #6a6867;
 }
 
 .skip_guide {
     text-align: end;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 1.2rem;
 }
 
-.introtext_guide
+/*text*/
+.introtext_guide {
+    color: #ffffff;
+}
 
-.guidetext_step
+.guidetext_step {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 17px;
+    margin-top: 0px;
+}
 
-.guidetext_info
+.guidetext_info {
+    font-size: 33px;
+    text-align: center;
+}
+
+/* img + buttons to show */
+.img_hentpakke-touch { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 77px;
+}
+
+.fa-map-marker-alt{
+     text-align: center;
+}
 
 
 /* ---------- Mine Pakker ---------- */
