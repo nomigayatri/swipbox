@@ -554,7 +554,7 @@ button a {
   height: 445px;
 }
 
-/* ---------- Box dont open ---------- */
+/* ---------- Box Remind ---------- */
 .remindclosebox {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -579,29 +579,6 @@ button a {
 }
 
 /* ---------- Popup Contact Service ---------- */
-.popup__contactservice {
-  height: 170px;
-  display: grid;
-  grid-template-rows: 10px 1fr 1fr;
-}
-
-.telefonnummer {
-  font-size: 1.8em;
-  font-weight: bold;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.heading__contactservice {
-  font-weight: normal;
-  font-size: 1.7em;
-  margin-top: 30px;
-}
-
-.x {
-  justify-self: end;
-}
-
 /* ---------- Feedback ---------- */
 .rating {
   width: 180px;
