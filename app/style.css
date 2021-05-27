@@ -277,8 +277,11 @@ button a {
           box-shadow: 3px 3px 20px #F47932;
 }
 
-/* ---------- Mine Pakker ---------- */
-.img__hentpakke-stort {
+.skip_guide {
+  text-align: end;
+}
+
+.introtext_guide .guidetext_step .guidetext_info .img__hentpakke-stort {
   position: fixed;
   left: -220px;
   z-index: -1;
