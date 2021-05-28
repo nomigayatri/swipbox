@@ -115,6 +115,10 @@ if(document.querySelector(".popUp2") !== null) {
    setTimeout(()=>{
        removeHide();
    }, 2000);
+
+   setTimeout(()=>{
+      addHide();
+  }, 5000);
 }
 
 
