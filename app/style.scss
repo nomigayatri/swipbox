@@ -243,21 +243,31 @@ color: #16273D;
 /*  ------------- Guides ------------ */
 
 .button__hentpakke-guide {
-    justify-items: center;
+    place-self: center;
+    margin-bottom: 20px;
 }
 .button__sendpakke-guide {
+    place-self: center;
     justify-items: center;
 }
 .guides_h1 {
     text-align: center;
     font-size: 3em;
+    margin-bottom: 70px;
+    margin-top: 7px;
 }
 
+.main__guides {
+    display: grid;
+}
 
 /* -------------- Hent pakke Guide ---------------*/
 /* general + button */
 .hentguide {
     background-color: #F89E5D;
+    background-image: url("../app/img/hentpakke-stort.png");
+    background-repeat: no-repeat;
+    background-position: 99% 33%;
 }
 
 .img__hentpakke-stort {
@@ -269,9 +279,14 @@ color: #16273D;
 .fa-chevron-right_guide {
     width: 70px;
     height: 70px;
-    /*background-color: #F47932;*/
-    background-color: #ffffff;
-    box-shadow: 3px 3px 20px #6a6867;
+    background-color: #EA5B0C;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.fa-chevron-right.icon_guide {
+    margin-top: 0;
+    margin-right: 7px;
 }
 
 .skip_guide {
@@ -281,21 +296,40 @@ color: #16273D;
     font-size: 1.2rem;
 }
 
+
+.fas.fa-circle.guide {
+    position: relative;
+    top: -4px;
+    left: 0;
+    margin-left: 8px;
+    color: white;
+}
+.fas.fa-circle.guide.guide--done {
+    position: relative;
+    left: 60px;
+    color: whitesmoke;
+}
+
+
 /*text*/
-.introtext_guide {
+.introtext_guide {
     color: #ffffff;
+    font-size: 33px;
+    text-align: center;
+    margin: 0px 33px 0px;
 }
 
 .guidetext_step {
-    font-size: 55px;
+    font-size: 33px;
     text-align: center;
-    margin-bottom: 17px;
+    margin-bottom: 13px;
     margin-top: 0px;
 }
 
 .guidetext_info {
-    font-size: 33px;
+    font-size: 23px;
     text-align: center;
+    margin: 0px 50px 0px;
 }
 
 /* img + buttons to show */
@@ -303,7 +337,7 @@ color: #16273D;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 77px;
+    margin-top: 44px;
 }
 
 .step2 {
@@ -312,8 +346,27 @@ color: #16273D;
     justify-items: center;
 }
 
-.fa-8x {
-    margin-top: 30px;
+.fa-map-marker-alt.fa-8x {
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.button__afhent_step3 {
+    margin-top: 165px;
+    margin-left: 40px;
+}
+.finger_touch_step3 {
+    margin-left: 230px;
+    margin-bottom: 40px;
+}
+
+.button__afhent_step4 {
+    margin-top: 165px;
+    margin-left: 40px;
+}
+.finger_touch_step4 {
+    margin-left: 230px;
+    margin-bottom: 40px;
 }
 
 /* ---------- Mine Pakker ---------- */
@@ -663,10 +716,31 @@ margin-top: 10px;
     font-size: 40px;
     display: grid;
     align-items: center;
+    z-index: 2;
 }
 .hide {
     display: none;
 }
+.overlay {
+    position: fixed;
+    opacity: 0; 
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: all;
+} 
+
 /* ---------- Popup Contact Service ---------- */
 *,  *::after, *::before {
     box-sizing:border-box;

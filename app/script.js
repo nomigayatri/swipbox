@@ -96,17 +96,20 @@ closeKundeserviceButtons.forEach(button => {
 
 if(document.querySelector(".popUp2") !== null) {
    const popUp2 = document.querySelector(".popUp2");
+   const overlay2 = document.querySelector(".overlay");
 
    function removeHide(){
        if(popUp2.classList.contains("hide")){
-           popUp2.classList.remove("hide");
-       }
+         popUp2.classList.remove("hide");
+         overlay2.classList.add("active");
+      }
    }
 
    function addHide (){
        if(!popUp2.classList.contains("hide")){
-           popUp2.classList.add("hide");
-       }
+         popUp2.classList.add("hide");
+         overlay2.classList.remove("active");
+      }
    }
 
    setTimeout(()=>{
