@@ -652,16 +652,6 @@ button a {
   height: 290px;
 }
 
-.button__kundeservice {
-  background: #a2a4a7;
-  height: 60px;
-  width: 270px;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  font-size: 1.5em;
-  margin-top: 15px;
-}
-
 .heading__boxdontopen {
   font-size: 2em;
   margin-top: 50px;
@@ -731,81 +721,6 @@ button a {
 .overlay.active {
   opacity: 1;
   pointer-events: all;
-}
-
-/* ---------- Popup Contact Service ---------- */
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
-.kundeservice {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
-  border-radius: 12px;
-  z-index: 10;
-  background-color: white;
-  width: 500px;
-  max-width: 50%;
-}
-
-.kundeservice.active {
-  transform: translate(-50%, -50%) scale(1);
-}
-
-.kundeservice-header {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-}
-
-.kundeservice-header .title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.kundeservice-header .close-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.25rem;
-  font-weight: bold;
-  display: flex;
-  left: 280px;
-}
-
-.kundeservice-body {
-  padding: 10px 15px;
-}
-
-#overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-}
-
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
-
-.button__kundeservice {
-  width: 200px;
-  height: 80px;
-  background: orange;
-  border: none;
-  border-radius: 20px;
 }
 
 /* ---------- Feedback ---------- */
@@ -878,6 +793,16 @@ button a {
 /* --------- Popup Kontaktservice ----------- */
 *, *::after, *::before {
   box-sizing: border-box;
+}
+
+.button__kundeservice {
+  background: #a2a4a7;
+  height: 60px;
+  width: 270px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-size: 1.5em;
+  margin-top: 15px;
 }
 
 .kundeservice {
