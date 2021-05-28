@@ -744,7 +744,6 @@ button a {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
-  border: 1px solid black;
   border-radius: 12px;
   z-index: 10;
   background-color: white;
@@ -761,7 +760,7 @@ button a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  justify-content: center;
 }
 
 .kundeservice-header .title {
@@ -776,6 +775,8 @@ button a {
   background: none;
   font-size: 1.25rem;
   font-weight: bold;
+  display: flex;
+  left: 280px;
 }
 
 .kundeservice-body {
