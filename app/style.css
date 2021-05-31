@@ -450,10 +450,34 @@ button a {
 
 .icon-pil-sendpakke {
   background-color: #11B8D7;
-  height: 180px;
+  height: 121px;
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px;
   width: 48px;
+}
+
+.sendlogind__tekst {
+  font-weight: bold;
+}
+
+.sendlogind-section {
+  text-align: center;
+  margin-top: 240px;
+}
+
+.box__sendpakke {
+  border-radius: 12px;
+  box-shadow: 3px 3px 20px #a2a4a7;
+  width: 330px;
+  height: 120px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.88);
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  text-align: center;
+  align-items: center;
 }
 
 /* ---------- Mine Pakker ---------- */
@@ -519,7 +543,7 @@ button a {
 }
 
 .fa-chevron-right {
-  margin-top: 80px;
+  margin-top: 70px;
   margin-left: 12px;
   color: #ffffff;
 }
