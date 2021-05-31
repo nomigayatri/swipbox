@@ -7,10 +7,144 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/df249e4577.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <title>Mine pakker</title>
 </head>
 <body>
+    <header>
+        
+    
+        <a href="../general/home-page.html">
+            <i class="fas fa-chevron-left fa-2x"></i>
+        </a>
 
+        <img class="hentpakke__lille" src="../img/hentpakke-lille.png" alt="little box">
+
+    <section class="navbarsection">
+        <nav class="navbar">
+            <section class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                
+            </section>
+
+            <ul class="nav-list"> 
+
+                
+                <li class="nav-item">
+                    <i class="fas fa-home menuicon"></i>
+                    <a href="../general/home-page.html" class="nav-link">Home</a>
+                </li>
+                 <li class="nav-item">
+                    <img class="icon menuicon" src="../img/icon-minepakker.png" alt="Icon box">
+                    <a href="../hentpakke/minepakker.html" class="nav-link"> Dine pakker</a>
+                </li>
+                <li class="nav-item">
+                    <img class="icon menuicon" src="../img/icon-afsendpakke.png" alt="Icon box">
+                    <a href="../sendpakke/sendpakke.html" class="nav-link">Afsend pakke</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-history menuicon"></i>
+                    <a href="../general/loginpage.html" class="nav-link"> Historik</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-phone-alt menuicon"></i>
+                    <a href="#" class="nav-link navlink__kundeservice " data-kundeservice-target="#kundeservice" > Kundeservice</a>
+                <section class="popup kundeservice" id="kundeservice">
+                <section class="kundeservice-header">
+                    <section class="title">Kundeservice</section>
+                    <button data-close-button class="close-button">&times;</button>
+                </section>
+                <section class="kundeservice-body">
+                    <a class="telefonnummer" href="tel:+4570602230"> +45 70 60 22 30 </a>
+                    
+                </section> 
+            
+            </section>
+            <section id="overlay">
+            </section>
+                
+            </li>
+                <li class="nav-item">
+                    <i class="fas fa-shoe-prints menuicon"></i>
+                    <a href="../general/guides.html" class="nav-link"> Guides</a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-sign-in-alt menuicon"></i>
+                    <a href="../general/loginpage.html" class="nav-link">Log ind</a>
+                </li>
+                <img class="logomenu" src="../img/swipbox-logo.png" alt="logo swipbox">
+            </ul>
+        </nav>
+
+    </section>
+
+</header>
+
+<img class="img__sendpakke-stort" src="../img/sendpakke-stort.png" alt="big box in blue">
+
+<main class="main__minepakker" >
+
+    <article class="popUp popup popup__tilladelser">
+    
+            <a href="../general/home-page.html">
+                <i class="fas fa-times fa-2x"></i>
+            </a>
+    
+            <section class="tilladelsericons">
+            <i class="fab fa-bluetooth-b fa-6x"></i>
+            <i class="fas fa-map-marker-alt fa-5x"></i>
+            </section>
+    
+            <h2 class="heading__tilladelser">Tilladelser</h2>
+    
+            <section class="text__tilladelser">
+            <h3 class="underheading__tilladelser">Bluetooth</h3>
+            <p class="p__tilladelser">Bluetooth er krævet for at kunne <br> finde og åbne lågerne <br> i SwipBox pakkeboksen. </p>
+            </section>
+    
+            <section class="text__tilladelser">
+            <h3 class="underheading__tilladelser" >Lokation</h3>
+            <p class="p__tilladelser" >For at bruge featuren 'vis vej' <br> har SwipBox brug for din tilladelse <br> til brug af lokation.</p>
+            </section>
+    
+            <button class="hidePopUp buttonhent button__tilladelser">Videre</button>
+    
+            <section id="overlay2">
+
+            </section>
+            
+            
+        </article>
+
+    <section class="box__minepakker">
+
+        <a class="box-pakke" href="../hentpakke/afhentpakke.html">
+    
+    
+            <h2 class="heading__sendpakke"> Send pakke</h2>
+    
+        </a>
+    <a href="../general/home-page.html">
+      <section class="icon-pil-sendpakke">
+                <i class="fas fa-chevron-right fa-2x"></i>
+            </section>
+    </a>
+        </section>
+
+        <section class="minepakker__logind" >
+        <p class="prologind__tekst"> 
+            Log ind for at se din historik <br>
+            over alle dine pakker
+        </p>
+    
+        <button class="buttonsend">
+            <a href="../general/loginpage.html">
+            Min konto
+        </a>
+        </button>
+    </section>
+</main>
 
     <script src="../script.js"></script>
 </body>

@@ -444,6 +444,21 @@ color: #16273D;
     top: -17px;
 }
 
+/* ---------- Send Pakke ---------- */
+.img__sendpakke-stort {
+    position: fixed;
+    right: -200px;
+    z-index: -1;
+}
+
+.icon-pil-sendpakke {
+    background-color: #11B8D7;
+    height: 180px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 48px;
+}
+
 /* ---------- Mine Pakker ---------- */
 
 .img__hentpakke-stort {

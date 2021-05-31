@@ -143,8 +143,3 @@ function showPopUp(){
 btn.addEventListener("click", hidePopUp);
 }
 
-// Afsend Feedback
-
-document.querySelector(".button__feedback").onclick = function () {
-   location.href = "../hentpakke/thankyou.html";
-};
