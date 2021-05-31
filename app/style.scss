@@ -300,7 +300,6 @@ color: #16273D;
     font-size: 1.2rem;
 }
 
-
 .fas.fa-circle.guide {
     position: relative;
     top: -4px;
@@ -387,6 +386,52 @@ color: #16273D;
     place-self: center;
     margin-top: 70px;
     margin-bottom: 70px;
+}
+
+
+/* -------------- Send pakke Guide ---------------*/
+/* general + button */
+
+.sendguide {
+    background-color: #90D7EC;
+    background-image: url("../app/img/sendpakke-stort.png");
+    background-repeat: no-repeat;
+    background-position: 15% 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.fa-chevron-right_sendguide {
+    width: 70px;
+    height: 70px;
+    background-color: #11B8D7;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.fa-chevron-right_guide.send_guide {
+    background-color: #11B8D7;
+}
+
+
+.img_icons_scan_manuel {
+    justify-items: center;
+}
+
+.buttonhent.button__send_step3 {
+    margin-top: 165px;
+    margin-left: 40px;
+    background-color: #11B8D7;
+}
+
+.finger_touch_sendstep3 {
+    margin-left: 230px;
+    margin-bottom: 35px;
+    position: relative;
+    top: -17px;
 }
 
 /* ---------- Mine Pakker ---------- */
