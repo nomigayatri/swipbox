@@ -38,7 +38,7 @@ function printRatingResult(result, num = 0) {
 
 executeRating(ratingStars, ratingResult);
 
-// PopUp Contact Service
+// PopUp Contact Service  ... inspiration: https://www.youtube.com/watch?v=MBaw_6cPmAw
 
 const openKundeserviceButtons = document.querySelectorAll('[data-kundeservice-target]')
 const closeKundeserviceButtons = document.querySelectorAll('[data-close-button]')
