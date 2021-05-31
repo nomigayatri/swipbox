@@ -409,7 +409,7 @@ button a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 95vh;
 }
 
 .fa-chevron-right_sendguide {
@@ -430,8 +430,12 @@ button a {
 
 .buttonhent.button__send_step3 {
   margin-top: 165px;
-  margin-left: 40px;
+  margin-left: 50px;
   background-color: #11B8D7;
+}
+
+.button__send_step3 {
+  margin-right: 50px;
 }
 
 .finger_touch_sendstep3 {
@@ -439,6 +443,10 @@ button a {
   margin-bottom: 35px;
   position: relative;
   top: -17px;
+}
+
+.buttonguidesend__2 {
+  margin: 0;
 }
 
 /* ---------- Send Pakke ---------- */
