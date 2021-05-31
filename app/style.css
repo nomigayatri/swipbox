@@ -259,7 +259,7 @@ button a {
 
 .backgroundimg__guides {
   background-image: url(img/SwipBox-illustration-city.png);
-  background-size: 100%;
+  background-size: 100% 100% 100%;
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -698,9 +698,8 @@ button a {
 
 .illustration__boxdontopen {
   display: block;
-  margin-top: 100px;
+  margin-top: 270px;
   max-width: 320px;
-  height: 445px;
   margin-left: auto;
   margin-right: auto;
 }
