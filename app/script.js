@@ -5,7 +5,7 @@ if (document.querySelector(".hamburger-menu")!= null) {menuIcon.addEventListener
    navbar.classList.toggle("change");
 })}
 
-/* Rating Stars inspiration: https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3*/
+// Rating Stars inspiration: https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3*/
 
 const ratingStars = [...document.getElementsByClassName("rating__star")];
 const ratingResult = document.querySelector(".rating__result");
@@ -38,7 +38,7 @@ function printRatingResult(result, num = 0) {
 
 executeRating(ratingStars, ratingResult);
 
-/* Pop Up Contact-Service */
+// PopUp Contact Service
 
 const openKundeserviceButtons = document.querySelectorAll('[data-kundeservice-target]')
 const closeKundeserviceButtons = document.querySelectorAll('[data-close-button]')
@@ -92,7 +92,7 @@ closeKundeserviceButtons.forEach(button => {
 
 }
 
-/*PopUp Door is not closed*/
+// PopUp door ist not closed
 
 if(document.querySelector(".popUp2") !== null) {
    const popUp2 = document.querySelector(".popUp2");
@@ -114,16 +114,15 @@ if(document.querySelector(".popUp2") !== null) {
 
    setTimeout(()=>{
        removeHide();
-   }, 2000);
+   }, 6000);
 
    setTimeout(()=>{
       addHide();
-  }, 5000);
+  }, 8000);
 }
 
 
-/* PopUp Bluetooth */
-
+// PopUp blueetoth 
 
 if(document.querySelector(".popUp") !== null){
 const popUp = document.querySelector(".popUp");
@@ -143,3 +142,9 @@ function showPopUp(){
 
 btn.addEventListener("click", hidePopUp);
 }
+
+// Afsend Feedback
+
+document.querySelector(".button__feedback").onclick = function () {
+   location.href = "../hentpakke/thankyou.html";
+};
