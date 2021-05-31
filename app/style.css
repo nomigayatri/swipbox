@@ -432,6 +432,15 @@ button a {
   top: -17px;
 }
 
+.animation_tagpakke {
+  width: 300px;
+  -ms-grid-row-align: center;
+  -ms-grid-column-align: center;
+  place-self: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 /* ---------- Mine Pakker ---------- */
 .img__hentpakke-stort {
   position: fixed;
