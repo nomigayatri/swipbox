@@ -480,6 +480,11 @@ button a {
   align-items: center;
 }
 
+.chevron-right__sendpakke {
+  color: #ffffff;
+  margin-top: 40px;
+}
+
 /* ---------- Mine Pakker ---------- */
 .img__hentpakke-stort {
   position: fixed;
@@ -542,7 +547,7 @@ button a {
   width: 48px;
 }
 
-.fa-chevron-right {
+.chevron-right__minepakker {
   margin-top: 70px;
   margin-left: 12px;
   color: #ffffff;
