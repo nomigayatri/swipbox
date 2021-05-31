@@ -242,15 +242,8 @@ color: #16273D;
 
 /*  ------------- Guides ------------ */
 
-.button__hentpakke-guide {
-    place-self: center;
-    margin-bottom: 20px;
-}
-.button__sendpakke-guide {
-    place-self: center;
-    justify-items: center;
-}
-.guides_h1 {
+
+.guides_h2 {
     text-align: center;
     font-size: 3em;
     margin-bottom: 70px;
@@ -261,6 +254,22 @@ color: #16273D;
     display: grid;
 }
 
+.button__guides {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.backgroundimg__guides {
+    background-image: url(img/SwipBox-illustration-city.png); 
+    background-size: 100% 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.button__sendpakke-guide {
+    margin-bottom: 200px;
+}
 /* -------------- Hent pakke Guide ---------------*/
 /* general + button */
 .hentguide {
@@ -742,9 +751,8 @@ margin-top: 10px;
 
 .illustration__boxdontopen {
     display: block;
-    margin-top: 100px;
+    margin-top: 270px;
     max-width: 320px;
-    height: 445px;
     margin-left: auto;
     margin-right: auto;
 }

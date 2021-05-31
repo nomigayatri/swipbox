@@ -10,7 +10,9 @@
     <title>Guides</title>
 </head>
 <body>
-    <section class="backgroundimg">
+ <section class="backgroundimg__guides">
+
+ 
     <header>
     
     <section class="navbarsection">
@@ -24,6 +26,7 @@
 
             <ul class="nav-list"> 
 
+                
                 <li class="nav-item">
                     <i class="fas fa-home menuicon"></i>
                     <a href="../general/home-page.html" class="nav-link">Home</a>
@@ -42,8 +45,22 @@
                 </li>
                 <li class="nav-item">
                     <i class="fas fa-phone-alt menuicon"></i>
-                    <a href="../general/popup-contactservice.html" class="nav-link navlink__kundeservice"> Kundeservice</a>
-                </li>
+                    <a href="#" class="nav-link navlink__kundeservice " data-kundeservice-target="#kundeservice" > Kundeservice</a>
+                <section class="popup kundeservice" id="kundeservice">
+                <section class="kundeservice-header">
+                    <section class="title">Kundeservice</section>
+                    <button data-close-button class="close-button">&times;</button>
+                </section>
+                <section class="kundeservice-body">
+                    <a class="telefonnummer" href="tel:+4570602230"> +45 70 60 22 30 </a>
+                    
+                </section> 
+            
+            </section>
+            <section id="overlay">
+            </section>
+                
+            </li>
                 <li class="nav-item">
                     <i class="fas fa-shoe-prints menuicon"></i>
                     <a href="../general/guides.html" class="nav-link"> Guides</a>
@@ -52,7 +69,6 @@
                     <i class="fas fa-sign-in-alt menuicon"></i>
                     <a href="../general/loginpage.html" class="nav-link">Log ind</a>
                 </li>
-
                 <img class="logomenu" src="../img/swipbox-logo.png" alt="logo swipbox">
             </ul>
         </nav>
@@ -62,12 +78,17 @@
 <main class="main__guides">
 
     <img class="logo__login" src="../img/swipbox-logo.png" alt="logo swipbox">
-    <h1 class="guides_h1">Guides</h1>
-    <a href="../hentpakke/guidehentpakke-step1.html"> </a><button class="buttonhent button__hentpakke-guide"> Hent Pakke Guide </button></a>
+    <h2 class="guides_h2">Guides</h2>
+    <a class="button__guides" href="../hentpakke/guidehentpakke-step1.html">
+        <button class="buttonhent button__hentpakke-guide"> Hent Pakke Guide </button> 
+    </a>
+ <a class="button__guides" href="#">
     <button class="buttonsend button__sendpakke-guide">
         Send Pakke Guide
     </button>
+</a>
 
+</section>
 </main>
     <script src="../script.js"></script>
 </body>
