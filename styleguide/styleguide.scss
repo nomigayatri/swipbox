@@ -149,14 +149,16 @@ ul {
 }
 .mainbutton {
     background-color: #EA5B0C;
-    height: 71px;
-    width: 220px;
+    height: 60px;
+    width: 270px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     color: white;
     font-family: 'Exo 2', sans-serif;
     font-style: bold;
-    font-size: 2em;
+    font-size: 1.6em;
+    border: none;
+    justify-self: center;
     
 }
 
@@ -428,7 +430,7 @@ i {
 
     .change .line-1 {
     transform: rotateZ(-405deg) translate(-8px, 6px);
-    background-color: #e8e384;
+    background-color: white;
 }
 
     .change .line-2 {
@@ -437,7 +439,7 @@ i {
 
    .change .line-3 {
     transform: rotateZ(405deg) translate(-8px, -6px);
-    background-color: #e8e384;
+    background-color: white;
 }
 
   .nav-list {
@@ -452,7 +454,7 @@ i {
   .nav-link {
     text-decoration: none;
     font-size: 22px;
-    color: rgb(212, 210, 178);
+    color: rgb(216, 215, 215);
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -460,7 +462,8 @@ i {
 }
 
   .nav-link:hover {
-    color: #e8e384;
+    color: white;
+    font-weight: bold;
 }
 
 }
